@@ -36,7 +36,7 @@
                 <a class="nav-link active" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">FAQ</a>
@@ -45,7 +45,7 @@
 
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
-                <a class="nav-link" href="login.html">Login</a>
+                <a class="nav-link" href="register.php">Login</a>
               </li>
             </ul>
             
@@ -111,7 +111,7 @@
                       <div class="row">
                           <div class="col-lg-12 col-md-12 mt-4 pt-2">
                               <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                  <img src="https://www.bootdey.com/image/241x362/FFB6C1/000000" class="img-fluid" alt="Image" />
+                                  <img src="images/resume-template-1.jpg" class="img-fluid" alt="Image" />
                                   <div class="img-overlay bg-dark"></div>
                               </div>
                           </div>
@@ -131,7 +131,7 @@
                       <div class="row">
                           <div class="col-lg-12 col-md-12">
                               <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                  <img src="https://www.bootdey.com/image/337x450/87CEFA/000000" class="img-fluid" alt="Image" />
+                                  <img src="images/resume-template-2.jpg" class="img-fluid" alt="Image" />
                                   <div class="img-overlay bg-dark"></div>
                               </div>
                           </div>
@@ -139,7 +139,7 @@
   
                           <div class="col-lg-12 col-md-12 mt-4 pt-2">
                               <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                  <img src="https://www.bootdey.com/image/600x401/FF7F50/000000" class="img-fluid" alt="Image" />
+                                  <img src="images/3.jpg" class="img-fluid" alt="Image" />
                                   <div class="img-overlay bg-dark"></div>
                               </div>
                           </div>
@@ -158,9 +158,9 @@
                   <h5 class="text-custom font-weight-normal mb-3">About Us</h5>
                   <h4 class="title mb-4">
                       Our mission is to <br />
-                      make your life easier.
+                      make your life easier and make you a wonderful resume.
                   </h4>
-                  <p class="text-muted mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit quod debitis praesentium pariatur temporibus ipsa, cum quidem obcaecati sunt?</p>
+                  <p class="text-muted mb-0">Create a modern resume that will result in interview callbacks. All key things on a single page. Fast & easy-to-use.Create a visually stunning resume that makes recruiters want to read it and explore it. Our resume builder will guide you through the process. Focus on the content, while we take care of the formatting.</p>
   
                   <div class="row">
                       <div class="col-lg-6 mt-4 pt-2">
@@ -184,7 +184,7 @@
                       <div class="col-lg-6 mt-4 pt-2">
                           <div class="media align-items-center rounded shadow p-3">
                               <i class="fa fa-image h4 mb-0 text-custom"></i>
-                              <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Development</a></h6>
+                              <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Ease of Access</a></h6>
                           </div>
                       </div>
                   </div>
@@ -202,10 +202,10 @@
         <div class="row justify-content-center gapsectionsecond">
             <div class="col-lg-7 text-center">
                 <div class="title-big pb-3 mb-3">
-                    <h3>SERVICE PRICES</h3>
+                    <h3>PREMIUM PRICES</h3>
                 </div>
                 <p class="description-p text-muted pe-0 pe-lg-0">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas optio reiciendis deleniti voluptatem facere sequi, quia, est sed dicta aliquid quidem facilis culpa iure perferendis? Dolor ad quia deserunt.
+                The Pro features that help you build a resume you’re proud of and people remember.ResumeBuddy low purchase price options will be made up in the first day of your new job. We  a variety of help and support options through online services.
                 </p>
             </div>
         </div>
@@ -213,21 +213,21 @@
             <div class="col-lg-4 pb-5 pb-lg-0">
                 <div class="wrap-price">
                     <div class="price-innerdetail text-center">
-                        <h5>MINIMUM BASIC SERVICE</h5>
-                        <p class="prices">150$</p>
+                        <h5>Your Current Plan:</h5>
+                        <p class="prices">FREE</p>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
-                            <span class="float-right">4 Hours</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Create a quality resume </span>
+                            <span class="float-right">✅</span>
                         </div>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
-                            <span class="float-right">50 - 200</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i> 2+ Templates to customize</span>
+                            <span class="float-right">✅</span>
                         </div>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
-                            <span class="float-right">Style</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Chat Support</span>
+                            <span class="float-right">❌</span>
                         </div>
-                        <a href="#" class="btn btn-secondary mt-5">Schedule</a>
+                        <a href="#" class="btn btn-secondary mt-5">Buy Now</a>
                     </div>
                 </div>
             </div>
@@ -237,18 +237,18 @@
                         <h5>PRO SERVICE</h5>
                         <p class="prices">350$</p>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
-                            <span class="float-right">4 Hours</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Print as a PDF, Word </span>
+                            <span class="float-right">✅</span>
                         </div>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
-                            <span class="float-right">50 - 200</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i>Share on LinkedIn®,Twitter</span>
+                            <span class="float-right">✅</span>
                         </div>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
-                            <span class="float-right">Style</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i> 24x7 Chat with Experts</span>
+                            <span class="float-right">✅</span>
                         </div>
-                        <a href="#" class="btn btn-secondary mt-5">Schedule</a>
+                        <a href="#" class="btn btn-secondary mt-5">Buy Now</a>
                     </div>
                 </div>
             </div>
@@ -258,18 +258,18 @@
                         <h5>STANDART SERVICE</h5>
                         <p class="prices">250$</p>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
-                            <span class="float-right">4 Hours</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Print as a PDF, Word </span>
+                            <span class="float-right">✅</span>
                         </div>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
-                            <span class="float-right">50 - 200</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i>Share on LinkedIn®,Twitter</span>
+                            <span class="float-right">❌</span>
                         </div>
                         <div class="detail-pricing">
-                            <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
-                            <span class="float-right">Style</span>
+                            <span class="float-left"> <i class="bi bi-check2-circle"></i> 24x7 Chat with Experts</span>
+                            <span class="float-right">✅</span>
                         </div>
-                        <a href="#" class="btn btn-secondary mt-5">Schedule</a>
+                        <a href="#" class="btn btn-secondary mt-5">Buy Now</a>
                     </div>
                 </div>
             </div>

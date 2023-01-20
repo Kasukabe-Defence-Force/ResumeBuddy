@@ -24,8 +24,8 @@ body {
     visibility: visible; }
 
 p {
-  color: #b3b3b3;
-  font-weight: 300; }
+  color: green;
+  font-weight: 900; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -285,4 +285,14 @@ hr.class-2 {
 
 .container{
   background-image: url(images/hero.jpg);
+}
+.error {
+  width: 52%; 
+  margin-bottom: 5%;
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: green; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
 }

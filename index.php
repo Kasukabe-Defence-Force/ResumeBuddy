@@ -119,7 +119,7 @@
   
                           <div class="col-12">
                               <div class="mt-4 pt-2 text-right">
-                                  <a href="javascript:void(0)" class="btn btn-info">Read More <i class="mdi mdi-chevron-right"></i></a>
+                                  <a href="about.php" class="btn btn-info">Read More <i class="mdi mdi-chevron-right"></i></a>
                               </div>
                           </div>
                       </div>

@@ -1,7 +1,7 @@
 
 body {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #FAF9F6;
+  background-color: whitesmoke;
   height: 200vh;
   position: relative; 
 }
@@ -59,9 +59,7 @@ header {
       padding: 30px 0; } }
   header .navbar-brand {
     text-transform: uppercase;
-    letter-spacing: .2em;
-    font-weight: 800;
-    font-size: 2rem; }
+    letter-spacing: .2em; }
     header .navbar-brand.absolute {
       position: absolute; }
       @media (max-width: 991.98px) {
@@ -366,4 +364,236 @@ button{
   margin-left: 30%;
   border: none;
   border-radius: 5px;
+}
+/* about us css */
+.aboutus-section {
+  padding: 90px 0;
+  
+}
+.aboutus-title {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin: 0 0 39px;
+  padding: 0 0 11px;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+.aboutus-title::after {
+  background: #fdb801 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 54px;
+}
+.aboutus-text {
+  color: #606060;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 35px;
+}
+
+a:hover, a:active {
+  color: #ffb901;
+  text-decoration: none;
+  outline: 0;
+}
+.aboutus-more {
+  border: 1px solid #fdb801;
+  border-radius: 25px;
+  color: #fdb801;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 7px 20px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 26rem;
+}
+.feature .feature-box .iconset {
+  background: #fff none repeat scroll 0 0;
+  float: left;
+  position: relative;
+  width: 18%;
+}
+.feature .feature-box .iconset::after {
+  background: #fdb801 none repeat scroll 0 0;
+  content: "";
+  height: 150%;
+  left: 43%;
+  position: absolute;
+  top: 100%;
+  width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+  color: #0f0f0f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+  float: left;
+  padding-left: 28px;
+  width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+  color: #0f0f0f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+  color: #606060;
+  font-size: 13px;
+  line-height: 22px;
+}
+.icon {
+  color : #f4b841;
+  padding:0px;
+  font-size:40px;
+  border: 1px solid #fdb801;
+  border-radius: 100px;
+  color: #fdb801;
+  font-size: 28px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 70px;
+}
+/* testimonial style */
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@keyframes background-color {
+    0% {
+        background: linear-gradient(to bottom, #000428, #004683);
+    }
+
+    25% {
+        background: linear-gradient(135deg, #1a4223, #5ee95e);
+    }
+
+    50% {
+        background: linear-gradient(to bottom, #421a31, #e95ed2);
+    }
+
+    100% {
+        background: linear-gradient(-135deg, #fae37d, #881da8, #20668f);
+    }
+
+}
+.container .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    border: none;
+    background-color: green;
+}
+
+.card .face {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.06);
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    backface-visibility: hidden;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    /* border-right: 1px solid #999;
+border-bottom: 1px solid #999; */
+}
+
+.card .face.front-face,
+.card .face.back-face {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .face.front-face .profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card .face.front-face .name {
+    letter-spacing: 2px;
+}
+
+.card .face.front-face .designation {
+    font-size: 0.9rem;
+    color: black;
+    letter-spacing: 0.8px;
+    font-weight: 100;
+
+}
+
+.card:hover .face.front-face {
+    transform: rotateY(180deg);
+}
+
+.card .face.back-face {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.06);
+    transform: rotateY(180deg);
+    padding: 20px 30px;
+    text-align: center;
+    user-select: none;
+}
+
+.card .face.back-face .fa-quote-left {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 1.2rem;
+}
+
+.card .face.back-face .fa-quote-right {
+    position: absolute;
+    bottom: 35px;
+    right: 25px;
+    font-size: 1.2rem;
+}
+
+.card:hover .face.back-face {
+    transform: rotateY(360deg);
+}
+
+@media(max-width: 991.5px) {
+    .col-lg-4 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
 }

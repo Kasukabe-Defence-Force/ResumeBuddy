@@ -42,50 +42,25 @@
       <a class="navbar-brand" href="#">ResumeBuddy</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.php">Home</a></li>
+      <li class="active"><a href="#">Home</a></li>
       <li><a href="#">Page 2</a></li>
       <li><a href="#">Page 3</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="register.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      <li><a href="#"><span class="active glyphicon glyphicon-log-out">Logout</span></li>
+      <li><a href="register.php"><span class="glyphicon glyphicon-log-in"></span> Loginp</a></li>
+      <li><a href="#"><span class="active glyphicon glyphicon-log-out"></span><a href="index.php?logout='1'" style="color: red;"></a> Logout</a></li>
     </ul>
   </div>
 </nav>
   
-        <!-- <header class="masthead d-flex align-items-center" style = "margin-top: 9%;">
-            <div class="container px-4 px-lg-5 text-left">
+        <header class="masthead d-flex align-items-center" style = "margin-top: 5%;">
+            <div class="container px-4 px-lg-5 text-center">
                 <h1 class="mb-1">Welcome ! <strong><?php echo $_SESSION['username']; ?></strong></h1>
                 
-                <h3 class="mb-5"><em>Please enter your details</em></h3>
+                <h3 class="mb-5"><em>Let's resume to making our resume</em></h3>
+                <a class="btn btn-primary btn-xl" href="sign.php">Find Out More</a>
             </div>
         </header>
-        <br> -->
-
-        <form class="input-fields">
-          <h1 style="text-align: center;">Resume Generator</h1>
-        <?php  if (isset($_SESSION['username'])) : ?>
-    	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-        <?php endif ?>
-          <input type="text" name="name" placeholder="name" />
-          <input type="text" name="title" placeholder="Title eg web developer" />
-          <textarea name="workexp" placeholder="work experience"></textarea>
-          <textarea name="academics" placeholder="academic details"></textarea>
-          <input name="objective" placeholder="objective" />
-          <textarea name="skills" placeholder="skills" ></textarea>
-          <textarea name="projects" placeholder="projects" ></textarea>
-          <textarea name="achievements" placeholder="achievements" ></textarea>
-          <textarea name="contact" placeholder="contact" ></textarea>
-    </form>
-     <!-- resume preview -->
-    <div class="output">
-   
-    </div>  
-    <!-- button for toggle   -->
-   <div class="btn">
-        <button onclick="toggle()">Preview or edit</button>
-   </div>
 
 </body>
 </html>

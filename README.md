@@ -1,7 +1,5 @@
 # ResumeBuddy
 ResumeBuddy, a resume maker website made for IITJ Hackathon Project
-# ResumeBuddy
-ResumeBuddy, a resume maker website made for IITJ Hackathon Project
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://i.ibb.co/WtTZ1Ys/logo.png" alt="Project logo"></a>

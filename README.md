@@ -57,8 +57,6 @@ CREATE TABLE `users` (
 ### Installing
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
-
 ```
 Run the apache server
 Run the mySQL server
@@ -69,7 +67,7 @@ This website can be used to learn how to make a resume making website using simp
 
 ## 🚀 Deployment <a name = "deployment"></a>
 The website has been deployed on :
-
+000website(https://resumebuddy.000webhostapp.com/)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Bootstrap](https://getbootstrap.com/) - Website Design

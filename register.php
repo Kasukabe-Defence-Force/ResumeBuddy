@@ -18,7 +18,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <title>ResumeBuddy | Make your resume</title>
+    <title>register</title>
   </head>
   <body style="background-color: #FAF9F9">
 

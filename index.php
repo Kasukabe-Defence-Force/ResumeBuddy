@@ -17,7 +17,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>ResumeBuddy | Make your resume</title>
+    <title>index</title>
   </head>
   <body>
 

@@ -1,4 +1,3 @@
-
 body {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: whitesmoke;
@@ -684,9 +683,4 @@ border-bottom: 1px solid #999; */
     .col-lg-4 {
         margin-top: 40px;
         margin-bottom: 20px;
-<<<<<<< HEAD
-=======
->>>>>>> 097838456ebb55a27b4d98cfe9691b25a2d28fc2
->>>>>>> 621a28099ce485ab64d7b256f1d9a58bee412bbc
-    }
-}
+  }}

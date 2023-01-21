@@ -54,7 +54,7 @@
       </nav>
     </header>
     <!-- END header -->
-    <div class="hero" style="background-image: url(images/hero.png);">
+    <div class="img-responsive hero" style="background-image: url(images/hero.png);">
     </div>
     
     <!-- Services Start here -->

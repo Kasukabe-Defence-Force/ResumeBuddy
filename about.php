@@ -63,7 +63,7 @@
                     <div class="aboutus">
                         <h2 class="aboutus-title">About Us</h2>
                         <p class="aboutus-text">"Our mission is to help job needing people. we are happy when a job seekers get a job through our resumes "</p>
-                        <p class="aboutus-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
+                        <p class="aboutus-text">We try our best to provide you with internatoinal standard services so that you can be interview ready anytime</p>
                         
                     </div>
                 </div>
@@ -90,7 +90,9 @@
                                 </div>
                                 <div class="feature-content">
                                     <h4>Reliable services</h4>
-                                    <p>Donec vitae sapien ut libero venenatis faucibu. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt</p>
+                                    <p>Our thousands our customers 
+                                      are the proof that our services are reliable enough to 
+                                    land you in your dream company.</p>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +103,10 @@
                                 </div>
                                 <div class="feature-content">
                                     <h4>Great support</h4>
-                                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    <p>We provide you with best chat support available all 
+                                      over the world so that you can create and
+                                      and modify your resume as much as you like.
+                                    </p>
                                 </div>
                             </div>
                         </div>
